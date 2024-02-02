@@ -14,7 +14,7 @@ body {
 }
 
 i {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 /*=========================
@@ -980,32 +980,57 @@ i {
 	End Footer Section
 ===============================*/
 
-
 /*=============================
 	End Footer Section
 ===============================*/
 
 .error-page {
-    text-align: center;
+	text-align: center;
 }
 
-
 .error-page .error-inner h1 {
-    font-size: 140px;
-    text-shadow: 3px 5px 2px #3333;
-    color: #1A76D1;
-    font-weight: 700;
+	font-size: 140px;
+	text-shadow: 3px 5px 2px #3333;
+	color: #1a76d1;
+	font-weight: 700;
 }
 
 .error-page .error-inner h1 span {
-    display: block;
-    font-size: 25px;
-    color: #333;
-    font-weight: 600;
-    text-shadow: none;
+	display: block;
+	font-size: 25px;
+	color: #333;
+	font-weight: 600;
+	text-shadow: none;
 }
 
 /*=============================
 	End Footer Section
 ===============================*/
 
+/*=============================
+    Dashboard Section
+===============================*/
+
+.appointment-card p {
+	color: #000;
+}
+
+.appointment-card .description-title {
+	font-weight: 600;
+}
+
+.appointment-card:hover {
+	background-color: #1a76d1;
+	color: #fff;
+	cursor: pointer;
+}
+
+.appointment-card:hover p {
+	color: #fff;
+}
+.appointment-card:hover h5 {
+	color: #fff;
+}
+.appointment-card:hover h6 {
+	color: #fff;
+}
